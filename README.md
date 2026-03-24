@@ -42,3 +42,21 @@ apt install -y docker-ce
 ```
 
 </details>
+
+
+<details>
+<summary><h3>Rocky Linux 9+10</h3></summary>
+
+```bash
+# Install required packages:
+dnf -y install dnf-plugins-core
+
+# Add repo:
+dnf config-manager \
+	--add-repo https://download.docker.com/linux/centos/docker-ce.repo
+
+# Install Docker Engine:
+dnf install docker-ce
+```
+
+</details>
