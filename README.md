@@ -1,7 +1,9 @@
-## Manual installation of Docker Engine
+# Manual installation of Docker Engine
 
-<details open>
-<summary>Debian 13</summary>
+*Please click on the distribution of your choice to view the instructions:*
+
+<details>
+<summary><h3>Debian 12, Debian 13</h3></summary>
 
 ```bash
 # Include distro infos:
@@ -16,7 +18,7 @@ install -m 0755 -d /etc/apt/keyrings
 
 curl -fsSL https://download.docker.com/linux/${ID}/gpg \
 	-o /etc/apt/keyrings/docker.asc
-	
+
 chmod a+r /etc/apt/keyrings/docker.asc
 
 # Add repo to Apt sources:
