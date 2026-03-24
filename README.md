@@ -60,3 +60,16 @@ dnf install docker-ce
 ```
 
 </details>
+
+
+<details>
+<summary><h3>openSUSE Leap 15+16</h3></summary>
+
+
+```bash
+# Docker, Inc. does not maintain its own repository for openSUSE.
+# However, the distribution's packages should be recent enough.
+
+zypper install docker
+```
+</details>
