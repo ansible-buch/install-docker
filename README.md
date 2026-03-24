@@ -1,9 +1,15 @@
 # Manual installation of Docker Engine
 
-*Please click on the distribution of your choice to view the instructions:*
+*Please click on the distribution of your choice to view the instructions.*
+
+
+> [!NOTE]
+> The following commands require root privileges.
+> Run `sudo -i` (or an equivalent command) first.
+
 
 <details>
-<summary><h3>Debian 12, Debian 13</h3></summary>
+<summary><h3>Debian 12+13, Ubuntu 24.04+26.04 LTS</h3></summary>
 
 ```bash
 # Include distro infos:
